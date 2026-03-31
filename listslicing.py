@@ -22,3 +22,10 @@ f_name="Gireesh"
 l_name="Hariharasubramony"
 print(f_name, l_name, sep='.')
 print(type(10/10),type(10*10))
+number_of_moons = 79
+sentence = "The total number of (known) moons for the planet Jupiter is " + str(number_of_moons)
+print(sentence)
+
+age_in_years = int(input("What is your age? "))
+age_in_months = age_in_years * 12
+print("Your age in months is: ", age_in_months)
