@@ -12,6 +12,7 @@ print(list1[0:-2]) #prints the items from left until 3rd last item which will be
 print(list1[-2:]) #prints the items from right until 2nd last item which will be "3,'Oranges'"
 print(list1[-4:-2]) #prints the items from left until 2nd last item but not the 2nd last item which will be "1, 2"
 print(list1[-2:-4]) #this will not print anything
+print(list1[::1], list1[::-1], sep="/") # this will print forward and reverse the list items
 #--------------------------------Different functions of list---------------------
 print(len(list1))
 a=2
