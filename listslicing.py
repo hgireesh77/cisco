@@ -18,3 +18,7 @@ a=2
 b=3
 c=(a**2) + (b**2)
 print(a,b,(a**2),(b**2),c)
+f_name="Gireesh"
+l_name="Hariharasubramony"
+print(f_name, l_name, sep='.')
+print(type(10/10),type(10*10))
