@@ -22,3 +22,15 @@ prices = {"apple": 1.0, "banana": 0.5}
 # Double all prices
 discounted_prices = {k: v * 2 for k, v in prices.items()}
 print(discounted_prices)
+
+list1 = [1,2,3,4,5]
+index = len(list1)
+while index > 0:
+    print(list1[index-1])
+    index = index - 1
+
+list2 = [1,2,[3,4,5],6,7,8]
+print(list2[-4][-3])
+
+list2[2].insert(1,6)
+print(list2)
