@@ -48,3 +48,17 @@ print(dict1)
 dict1.popitem()
 #print the dictionary items
 print(dict1)
+
+dict_list = list()
+print("\n\n------------------\n\n")
+
+for i in range(0,3):
+    dict_list.append({
+        "name": "Gireesh Hariharasubramony",
+        "Org": "HCLTECH",
+        1: 695018,
+        "Vehicles": ["Tata Tigor", "Merida Crossway 20"]
+    })
+
+for dictl in dict_list:
+    print(dictl)

@@ -1,0 +1,3 @@
+sh ip int br
+sh int desc
+sh ip route
