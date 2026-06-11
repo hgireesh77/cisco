@@ -1,9 +1,9 @@
 from netmiko import ConnectHandler
 
 router_details = {
-    "ip":"192.168.29.94",
-    "username":"admin1",
-    "password":"cisco123",
+    "ip":"192.168.29.111",
+    "username":"admin",
+    "password":"cisco",
     "device_type":"cisco_ios"
 }
 router_details["username"] = input("Enter username: ")
